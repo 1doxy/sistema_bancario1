@@ -1,6 +1,6 @@
-from sistema_bancario.pessoa_fisica import PessoaFisica
-from sistema_bancario.conta_corrente import ContaCorrente
-from sistema_bancario.transacao import Deposito, Saque
+from sistema_bancario1.pessoa_fisica import PessoaFisica
+from sistema_bancario1.conta_corrente import ContaCorrente
+from sistema_bancario1.transacao import Deposito, Saque
 
 if __name__ == "__main__":
     cliente1 = PessoaFisica("Maria Silva", "123.456.789-00", date(1990, 5, 17))
